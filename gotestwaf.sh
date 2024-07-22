@@ -7,7 +7,7 @@ regions=("asia-northeast1-b" "northamerica-northeast1-a" "europe-west1-b")
 #Command to execute on each instance
 #command="sudo docker pull wallarm/gotestwaf"
 
-command="sudo docker run -v /tmp:/tmp/report wallarm/gotestwaf --url=https://pages.zxc.co.in"
+command="sudo docker run -v /tmp:/tmp/report wallarm/gotestwaf --url=https://www.example.com"
 
 # Create an array to store process IDs
 pids=()
