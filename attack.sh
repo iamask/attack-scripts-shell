@@ -5,7 +5,7 @@ instances=("asasikumar-ddos-asia" "asasikumar-ddos-us" "asasikumar-ddos-europe")
 regions=("asia-northeast1-b" "northamerica-northeast1-a" "europe-west1-b")
 
 # Command to execute on each instance
-command="sudo docker run -v /tmp:/tmp/report wallarm/gotestwaf --url=https://spa.zxc.co.in"
+command="sudo docker run -v /tmp:/tmp/report wallarm/gotestwaf --url=https://www.example.com"
 
 # Create an array to store process IDs
 pids=()
